@@ -21,7 +21,6 @@ stdenv.mkDerivation rec {
     '';
     homepage = https://github.com/bwalex/tc-play;
     license = licenses.bsd2;
-    maintainers = [ maintainers.rkfg ];
     platforms = platforms.linux;
   };
 }
